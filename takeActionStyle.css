@@ -1,0 +1,107 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: mistyrose;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+/* STYLE TEXT */
+h1 {
+  color: navy;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+
+  padding: 10px;
+  background: white;
+}
+
+h2 {
+  color: navy;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+
+  padding: 10px;
+}
+
+p {
+  text-align: right;
+  font-family: 'Ubuntu', sans-serif;
+  
+  padding: 10px;
+}
+
+/* Text Styling */
+#triggerWarning {
+  color: red;
+}
+
+/* STYLE IMAGES */
+.dogPetition {
+  vertical-align: top;
+}
+
+.peacockPetition {
+  vertical-align: top;
+}
+
+.kittyPetition {
+  vertical-align: top;
+}
+
+.pelicanPetition {
+  vertical-align: top;
+}
+
+/* STYLE NAV BAR */
+ul.nav-bar {
+  overflow: hidden;
+  background-color: lightsalmon;
+}
+
+li.nav-item {
+  float: right;
+  display: inline;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+li.nav-item a {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+li.nav-item a:hover  {
+  color: red;
+  background-color: mistyrose;
+}
+
+/* STYLE BUTTONS */
+
+/* Table Styling */
+table, th, td {
+  /*border: 1px solid black;*/
+}
+
+td {
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
