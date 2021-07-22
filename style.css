@@ -1,0 +1,182 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: mistyrose;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+
+  padding: 10px;
+  background: white;
+}
+
+h2 {
+  color: navy;
+  font-family: 'Ubuntu', sans-serif;
+
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+
+  padding: 10px;
+}
+
+/* Text Styling */
+#bottomText {
+  vertical-align: bottom;
+}
+
+#topText {
+  vertical-align: top;
+}
+
+td {
+  text-align: center;
+}
+/* STYLE IMAGES */
+.babyHippo {
+  border-color: mistyrose;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.babyElephant {
+  border-color: mistyrose;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.babyKitty {
+  border-color: mistyrose;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* STYLE NAV BAR */
+ul.nav-bar {
+  overflow: hidden;
+  background-color: lightsalmon;
+}
+
+li.nav-item {
+  float: right;
+  display: inline;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+li.nav-item a {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+li.nav-item a:hover  {
+  color: red;
+  background-color: mistyrose;
+}
+
+/* STYLE BUTTONS */
+.animalFact {
+  background: lightsalmon;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 5px;
+
+  margin-top: 20px;
+  margin-left: 43%;
+  margin-right: 43%;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: mistyrose;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: darkcyan;
+}
+
+#factBtn {
+  background: mistyrose;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: pink;
+
+  padding: 5px;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  color: navy;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+
+  padding-top: 10px;
+}
+
+/* Table Styling */
+table, th, td {
+  /*border: 1px solid black;*/
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imgWidth {
+  width: 800px;
+  background-color: lightsteelblue;
+}
+
+.row2Cell1 {
+  background-color: lightsteelblue;
+}
+
+.row4Cell1 {
+  background-color: lightsteelblue;
+}
+/*Video Styling*/
+#YouTubeVideo {
+  padding: 20px;
+}
